@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8ECEB0762DFDB698000B015E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECEB05D2DFDB696000B015E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECEB0642DFDB696000B015E;
+			remoteInfo = "Xen Approximations Calc";
+		};
+		8ECEB0802DFDB698000B015E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECEB05D2DFDB696000B015E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECEB0642DFDB696000B015E;
+			remoteInfo = "Xen Approximations Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ECEB0652DFDB696000B015E /* Xen Approximations Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xen Approximations Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECEB0752DFDB698000B015E /* Xen Approximations CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xen Approximations CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECEB07F2DFDB698000B015E /* Xen Approximations CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xen Approximations CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8ECEB0672DFDB696000B015E /* Xen Approximations Calc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Xen Approximations Calc";
+			sourceTree = "<group>";
+		};
+		8ECEB0782DFDB698000B015E /* Xen Approximations CalcTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Xen Approximations CalcTests";
+			sourceTree = "<group>";
+		};
+		8ECEB0822DFDB698000B015E /* Xen Approximations CalcUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Xen Approximations CalcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECEB0622DFDB696000B015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECEB0722DFDB698000B015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECEB07C2DFDB698000B015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECEB05C2DFDB696000B015E = {
+			isa = PBXGroup;
+			children = (
+				8ECEB0672DFDB696000B015E /* Xen Approximations Calc */,
+				8ECEB0782DFDB698000B015E /* Xen Approximations CalcTests */,
+				8ECEB0822DFDB698000B015E /* Xen Approximations CalcUITests */,
+				8ECEB0662DFDB696000B015E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECEB0662DFDB696000B015E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECEB0652DFDB696000B015E /* Xen Approximations Calc.app */,
+				8ECEB0752DFDB698000B015E /* Xen Approximations CalcTests.xctest */,
+				8ECEB07F2DFDB698000B015E /* Xen Approximations CalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECEB0642DFDB696000B015E /* Xen Approximations Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECEB0892DFDB698000B015E /* Build configuration list for PBXNativeTarget "Xen Approximations Calc" */;
+			buildPhases = (
+				8ECEB0612DFDB696000B015E /* Sources */,
+				8ECEB0622DFDB696000B015E /* Frameworks */,
+				8ECEB0632DFDB696000B015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8ECEB0672DFDB696000B015E /* Xen Approximations Calc */,
+			);
+			name = "Xen Approximations Calc";
+			packageProductDependencies = (
+			);
+			productName = "Xen Approximations Calc";
+			productReference = 8ECEB0652DFDB696000B015E /* Xen Approximations Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ECEB0742DFDB698000B015E /* Xen Approximations CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECEB08C2DFDB698000B015E /* Build configuration list for PBXNativeTarget "Xen Approximations CalcTests" */;
+			buildPhases = (
+				8ECEB0712DFDB698000B015E /* Sources */,
+				8ECEB0722DFDB698000B015E /* Frameworks */,
+				8ECEB0732DFDB698000B015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECEB0772DFDB698000B015E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8ECEB0782DFDB698000B015E /* Xen Approximations CalcTests */,
+			);
+			name = "Xen Approximations CalcTests";
+			packageProductDependencies = (
+			);
+			productName = "Xen Approximations CalcTests";
+			productReference = 8ECEB0752DFDB698000B015E /* Xen Approximations CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ECEB07E2DFDB698000B015E /* Xen Approximations CalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECEB08F2DFDB698000B015E /* Build configuration list for PBXNativeTarget "Xen Approximations CalcUITests" */;
+			buildPhases = (
+				8ECEB07B2DFDB698000B015E /* Sources */,
+				8ECEB07C2DFDB698000B015E /* Frameworks */,
+				8ECEB07D2DFDB698000B015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECEB0812DFDB698000B015E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8ECEB0822DFDB698000B015E /* Xen Approximations CalcUITests */,
+			);
+			name = "Xen Approximations CalcUITests";
+			packageProductDependencies = (
+			);
+			productName = "Xen Approximations CalcUITests";
+			productReference = 8ECEB07F2DFDB698000B015E /* Xen Approximations CalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECEB05D2DFDB696000B015E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8ECEB0642DFDB696000B015E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8ECEB0742DFDB698000B015E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8ECEB0642DFDB696000B015E;
+					};
+					8ECEB07E2DFDB698000B015E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8ECEB0642DFDB696000B015E;
+					};
+				};
+			};
+			buildConfigurationList = 8ECEB0602DFDB696000B015E /* Build configuration list for PBXProject "Xen Approximations Calc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ECEB05C2DFDB696000B015E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8ECEB0662DFDB696000B015E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECEB0642DFDB696000B015E /* Xen Approximations Calc */,
+				8ECEB0742DFDB698000B015E /* Xen Approximations CalcTests */,
+				8ECEB07E2DFDB698000B015E /* Xen Approximations CalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECEB0632DFDB696000B015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECEB0732DFDB698000B015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECEB07D2DFDB698000B015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECEB0612DFDB696000B015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECEB0712DFDB698000B015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECEB07B2DFDB698000B015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ECEB0772DFDB698000B015E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECEB0642DFDB696000B015E /* Xen Approximations Calc */;
+			targetProxy = 8ECEB0762DFDB698000B015E /* PBXContainerItemProxy */;
+		};
+		8ECEB0812DFDB698000B015E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECEB0642DFDB696000B015E /* Xen Approximations Calc */;
+			targetProxy = 8ECEB0802DFDB698000B015E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8ECEB0872DFDB698000B015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 68738D867H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ECEB0882DFDB698000B015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 68738D867H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8ECEB08A2DFDB698000B015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Xen Approximations Calc/Xen_Approximations_Calc.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68738D867H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHE.Xen-Approximations-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8ECEB08B2DFDB698000B015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Xen Approximations Calc/Xen_Approximations_Calc.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68738D867H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHE.Xen-Approximations-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8ECEB08D2DFDB698000B015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68738D867H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHE.Xen-Approximations-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xen Approximations Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xen Approximations Calc";
+			};
+			name = Debug;
+		};
+		8ECEB08E2DFDB698000B015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68738D867H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHE.Xen-Approximations-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xen Approximations Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xen Approximations Calc";
+			};
+			name = Release;
+		};
+		8ECEB0902DFDB698000B015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68738D867H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHE.Xen-Approximations-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Xen Approximations Calc";
+			};
+			name = Debug;
+		};
+		8ECEB0912DFDB698000B015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68738D867H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHE.Xen-Approximations-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Xen Approximations Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECEB0602DFDB696000B015E /* Build configuration list for PBXProject "Xen Approximations Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECEB0872DFDB698000B015E /* Debug */,
+				8ECEB0882DFDB698000B015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECEB0892DFDB698000B015E /* Build configuration list for PBXNativeTarget "Xen Approximations Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECEB08A2DFDB698000B015E /* Debug */,
+				8ECEB08B2DFDB698000B015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECEB08C2DFDB698000B015E /* Build configuration list for PBXNativeTarget "Xen Approximations CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECEB08D2DFDB698000B015E /* Debug */,
+				8ECEB08E2DFDB698000B015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECEB08F2DFDB698000B015E /* Build configuration list for PBXNativeTarget "Xen Approximations CalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECEB0902DFDB698000B015E /* Debug */,
+				8ECEB0912DFDB698000B015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECEB05D2DFDB696000B015E /* Project object */;
+}
