@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>public.scl</string>
+			<key>UTTypeDescription</key>
+			<string>SCL Scale File</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.text</string>
+			</array>
+			<key>UTTypeTagSpecification</key>
+			<dict/>
+			<key>public.filename-extension</key>
+			<array>
+				<string>scl</string>
+			</array>
+			<key>public.mime-type</key>
+			<string>text/plain</string>
+		</dict>
+	</array>
+</dict>
+</plist>

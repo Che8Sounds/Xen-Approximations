@@ -1,0 +1,24 @@
+{
+  "originHash" : "3d5bc680c0d2f75eb5cb099edefee1140037ec9021741bc1c5f71a17aab7a70e",
+  "pins" : [
+    {
+      "identity" : "audiokit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AudioKit/AudioKit.git",
+      "state" : {
+        "revision" : "5b3fd238ef8ee95c9842ca4ea83ca58ee151e630",
+        "version" : "5.6.5"
+      }
+    },
+    {
+      "identity" : "microtonality",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AudioKit/Microtonality.git",
+      "state" : {
+        "revision" : "776f3cbe3d8ca616279f4d2cad4965171d740a86",
+        "version" : "5.4.1"
+      }
+    }
+  ],
+  "version" : 3
+}

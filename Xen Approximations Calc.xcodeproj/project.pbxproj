@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8E0F1DA42E0AF3B90053E858 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8E0F1DA32E0AF3B90053E858 /* AudioKit */; };
+		8E0F1DA72E0AF3CC0053E858 /* Microtonality in Frameworks */ = {isa = PBXBuildFile; productRef = 8E0F1DA62E0AF3CC0053E858 /* Microtonality */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8ECEB0762DFDB698000B015E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E0F1D9D2E0AE5CD0053E858 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
 		8ECEB0652DFDB696000B015E /* Xen Approximations Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xen Approximations Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECEB0752DFDB698000B015E /* Xen Approximations CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xen Approximations CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECEB07F2DFDB698000B015E /* Xen Approximations CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xen Approximations CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0F1DA42E0AF3B90053E858 /* AudioKit in Frameworks */,
+				8E0F1DA72E0AF3CC0053E858 /* Microtonality in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E0F1D9C2E0AE5CD0053E858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F1D9D2E0AE5CD0053E858 /* CoreAudioKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8ECEB05C2DFDB696000B015E = {
 			isa = PBXGroup;
 			children = (
 				8ECEB0672DFDB696000B015E /* Xen Approximations Calc */,
 				8ECEB0782DFDB698000B015E /* Xen Approximations CalcTests */,
 				8ECEB0822DFDB698000B015E /* Xen Approximations CalcUITests */,
+				8E0F1D9C2E0AE5CD0053E858 /* Frameworks */,
 				8ECEB0662DFDB696000B015E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +129,8 @@
 			);
 			name = "Xen Approximations Calc";
 			packageProductDependencies = (
+				8E0F1DA32E0AF3B90053E858 /* AudioKit */,
+				8E0F1DA62E0AF3CC0053E858 /* Microtonality */,
 			);
 			productName = "Xen Approximations Calc";
 			productReference = 8ECEB0652DFDB696000B015E /* Xen Approximations Calc.app */;
@@ -195,6 +214,10 @@
 			);
 			mainGroup = 8ECEB05C2DFDB696000B015E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8E0F1DA22E0AF3B90053E858 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				8E0F1DA52E0AF3CC0053E858 /* XCRemoteSwiftPackageReference "Microtonality" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8ECEB0662DFDB696000B015E /* Products */;
 			projectDirPath = "";
@@ -322,6 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -384,6 +408,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -553,6 +578,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E0F1DA22E0AF3B90053E858 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.5;
+			};
+		};
+		8E0F1DA52E0AF3CC0053E858 /* XCRemoteSwiftPackageReference "Microtonality" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/Microtonality.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E0F1DA32E0AF3B90053E858 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E0F1DA22E0AF3B90053E858 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		8E0F1DA62E0AF3CC0053E858 /* Microtonality */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E0F1DA52E0AF3CC0053E858 /* XCRemoteSwiftPackageReference "Microtonality" */;
+			productName = Microtonality;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8ECEB05D2DFDB696000B015E /* Project object */;
 }
